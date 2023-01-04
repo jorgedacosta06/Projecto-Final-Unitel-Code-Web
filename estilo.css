@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+:root{
+
+    --verde-escuro:#049A40;
+    --verde-claro:#0BF96A;
+    --rosa-escuro:#E10BF9;
+}
+body{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black
+    
+}
+.menu-bg{
+    background-color: rgb(100, 230, 235);
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu_logo{
+    margin: 10px;
+}
+.nav_lista{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 14px 16px;
+    font-size: 17px;
+
+}
+.nav_link{
+    padding: 20px 10px;
+}
+.intro{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+hr{
+    border: none;
+    background-color:blue;
+    height: 2px;
+    width: 400px;
+    margin: 20px auto;
+}
+p{
+    line-height: 21.82px;
+    padding: 0 10px;
+}
+.identidade{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.somos{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.somos_corpo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.somos_texto{
+    flex:6 1 160px;
+}
+#imagem{
+    border-radius: 50px;
+}
+.local{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.cor{
+    background-color: #049A40;
+    width: 500px;
+}
+.mapa{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    padding: 55px calc((100% - 960px)/2);
+}
+.footer_copyright, .footer_logo{
+    padding-left: 10px;
+    padding-right: 10px;
+}
